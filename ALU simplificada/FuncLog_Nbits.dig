@@ -12,7 +12,7 @@
         </entry>
         <entry>
           <string>Bits</string>
-          <int>4</int>
+          <int>8</int>
         </entry>
       </elementAttributes>
       <pos x="160" y="240"/>
@@ -26,7 +26,7 @@
         </entry>
         <entry>
           <string>Bits</string>
-          <int>4</int>
+          <int>8</int>
         </entry>
       </elementAttributes>
       <pos x="160" y="300"/>
@@ -50,7 +50,7 @@
         </entry>
         <entry>
           <string>Bits</string>
-          <int>4</int>
+          <int>8</int>
         </entry>
       </elementAttributes>
       <pos x="1040" y="360"/>
@@ -60,7 +60,7 @@
       <elementAttributes>
         <entry>
           <string>Bits</string>
-          <int>4</int>
+          <int>8</int>
         </entry>
         <entry>
           <string>wideShape</string>
@@ -74,7 +74,7 @@
       <elementAttributes>
         <entry>
           <string>Bits</string>
-          <int>4</int>
+          <int>8</int>
         </entry>
         <entry>
           <string>wideShape</string>
@@ -88,7 +88,7 @@
       <elementAttributes>
         <entry>
           <string>Bits</string>
-          <int>4</int>
+          <int>8</int>
         </entry>
         <entry>
           <string>wideShape</string>
@@ -102,7 +102,7 @@
       <elementAttributes>
         <entry>
           <string>Bits</string>
-          <int>4</int>
+          <int>8</int>
         </entry>
         <entry>
           <string>wideShape</string>
@@ -116,11 +116,7 @@
       <elementAttributes>
         <entry>
           <string>Input Splitting</string>
-          <string>1,1,1,1</string>
-        </entry>
-        <entry>
-          <string>Output Splitting</string>
-          <string>4</string>
+          <string>1,1,1,1,1,1,1,1</string>
         </entry>
       </elementAttributes>
       <pos x="340" y="600"/>
@@ -130,7 +126,7 @@
       <elementAttributes>
         <entry>
           <string>Bits</string>
-          <int>4</int>
+          <int>8</int>
         </entry>
       </elementAttributes>
       <pos x="540" y="500"/>
@@ -140,7 +136,7 @@
       <elementAttributes>
         <entry>
           <string>Bits</string>
-          <int>4</int>
+          <int>8</int>
         </entry>
         <entry>
           <string>wideShape</string>
@@ -164,12 +160,20 @@
       <p2 x="700" y="260"/>
     </wire>
     <wire>
+      <p1 x="320" y="740"/>
+      <p2 x="340" y="740"/>
+    </wire>
+    <wire>
       <p1 x="180" y="200"/>
       <p2 x="340" y="200"/>
     </wire>
     <wire>
       <p1 x="940" y="360"/>
       <p2 x="1040" y="360"/>
+    </wire>
+    <wire>
+      <p1 x="320" y="680"/>
+      <p2 x="340" y="680"/>
     </wire>
     <wire>
       <p1 x="160" y="300"/>
@@ -198,6 +202,10 @@
     <wire>
       <p1 x="780" y="240"/>
       <p2 x="820" y="240"/>
+    </wire>
+    <wire>
+      <p1 x="320" y="720"/>
+      <p2 x="340" y="720"/>
     </wire>
     <wire>
       <p1 x="320" y="660"/>
@@ -244,16 +252,36 @@
       <p2 x="860" y="380"/>
     </wire>
     <wire>
+      <p1 x="320" y="700"/>
+      <p2 x="340" y="700"/>
+    </wire>
+    <wire>
       <p1 x="320" y="600"/>
       <p2 x="320" y="620"/>
+    </wire>
+    <wire>
+      <p1 x="320" y="720"/>
+      <p2 x="320" y="740"/>
+    </wire>
+    <wire>
+      <p1 x="320" y="620"/>
+      <p2 x="320" y="640"/>
     </wire>
     <wire>
       <p1 x="320" y="640"/>
       <p2 x="320" y="660"/>
     </wire>
     <wire>
-      <p1 x="320" y="620"/>
-      <p2 x="320" y="640"/>
+      <p1 x="320" y="660"/>
+      <p2 x="320" y="680"/>
+    </wire>
+    <wire>
+      <p1 x="320" y="680"/>
+      <p2 x="320" y="700"/>
+    </wire>
+    <wire>
+      <p1 x="320" y="700"/>
+      <p2 x="320" y="720"/>
     </wire>
     <wire>
       <p1 x="480" y="260"/>
